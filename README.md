@@ -24,7 +24,7 @@ Após editar o arquivo com o Nano e configurar corretamente, você precisará ap
 
 Em último passo, você ira abrir o firefow e digitar http://localhost:8006/ 
 
-<img src='[tela-site.png](https://github.com/Gui1herm3/Hellowordjs/blob/main/tela-site.png)'>
+<img src="https://github.com/Gui1herm3/Hellowordjs/blob/main/tela-site.png" alt="aa">
 
 E caso queira acessa o computador de outros é apenas mudar a porta ( http://localhost: <porta> )
 
