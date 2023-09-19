@@ -2,26 +2,22 @@
 
 Separei as etapas da atividade em passos:
 
- Em primeiro passo, seria vc entrar na pasta aonde esta localizado o nodejs
- 
- no segundo passo, digitar o seguinte comando source ./nodejs/bin/activate mas ja com apache e nodejs baixado. Esse comando vai abrir o nodejs-env
- 
- vai abrir o nano com o arquivo de texto chamado index.js. nesse mesmo arquivo com o nano, você vai colocar o seguinte comando:
+No primeiro passo, você deve entrar na pasta onde o Node.js está localizado.
 
- {
- 
- var http = require('http');
+No segundo passo, digite o seguinte comando: source ./nodejs/bin/activate, mas apenas se você já tiver o Apache e o Node.js instalados. Esse comando abrirá o ambiente do Node.js.
+
+Em seguida, abra o Nano com o arquivo de texto chamado index.js. No mesmo arquivo, usando o Nano, você deve inserir o seguinte comando:
+
+var http = require('http');
 
 http.createServer(function (req, res) {
 
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  
-  res.end('João Guilherme Marcondes da Silva'+' 19/09/2023');
-  
+res.writeHead(200, {'Content-Type': 'text/plain'});
+
+res.end('João Guilherme Marcondes da Silva'+' 19/09/2023');
+
 }).listen(8006);
 
-}
+Certifiquei de configurar a porta para 8006, pois o seu computador está no armário 1 e é o computador número 6.
 
-Teria que configurar a porta para 8006 pois meu computador é do armário 1 e é o computador número 6.
-
-Depois de colocar o nano e configurar certo, tive que aplicar o firewall para todos conseguirem entrar no meu ip apenas com a porta 8006.
+Após editar o arquivo com o Nano e configurar corretamente, você precisará aplicar o firewall para permitir que todos acessem o seu IP apenas na porta 8006.
