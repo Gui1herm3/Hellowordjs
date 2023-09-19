@@ -22,6 +22,10 @@ Certifiquei de configurar a porta para 8006, pois o seu computador está no arm�
 
 Após editar o arquivo com o Nano e configurar corretamente, você precisará aplicar o firewall para permitir que todos acessem o seu IP apenas na porta 8006.
 
-Em último passo, você ira abrir o firefow e digitar http://localhost:8006/ . E caso queira acessa o computador de outros é apenas mudar a porta ( http://localhost: <porta> )
+Em último passo, você ira abrir o firefow e digitar http://localhost:8006/ 
+
+<img src='tela-site.png'>
+
+. E caso queira acessa o computador de outros é apenas mudar a porta ( http://localhost: <porta> )
 
 
